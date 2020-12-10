@@ -16,3 +16,5 @@ fields:
     required: true
   label: TITLE
   description: Titulo de la página
+pages:
+- _pages/mi-pagina.md
