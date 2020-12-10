@@ -1,4 +1,18 @@
 ---
 label: Page
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: true
+  label: LAYOUT
+  description: Layout de la pagina
+  hidden: false
+  default: page
+- name: title
+  type: text
+  config:
+    required: true
+  label: TITLE
+  description: Titulo de la página
